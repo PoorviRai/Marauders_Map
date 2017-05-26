@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ghat"
+            android:icon="@mipmap/placeholder"
+            android:title="Ghatkopar" />
+        <item
+            android:id="@+id/nav_kur"
+            android:icon="@mipmap/placeholder"
+            android:title="Kurla" />
+        <item
+            android:id="@+id/nav_band"
+            android:icon="@mipmap/placeholder"
+            android:title="Bandra" />
+        <item
+            android:id="@+id/nav_andh"
+            android:icon="@mipmap/placeholder"
+            android:title="Andheri" />
+    </group>
+
+    <item android:title="Navi Mumbai/Thane">
+        <menu>
+            <item
+                android:id="@+id/nav_than"
+                android:icon="@mipmap/placeholder"
+                android:title="Thane" />
+            <item
+                android:id="@+id/nav_domb"
+                android:icon="@mipmap/placeholder"
+                android:title="Dombivili" />
+            <item
+                android:id="@+id/nav_kal"
+                android:icon="@mipmap/placeholder"
+                android:title="Kalyan" />
+        </menu>
+    </item>
+
+</menu>
